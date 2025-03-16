@@ -1,0 +1,32 @@
+html {
+    box-sizing:border-box;
+}
+*.
+.::before*::after {
+    box-sizing:inherit;
+}
+
+
+:root{
+--color-primary:#ff0000;
+--bg-primary: #ffffff;
+--bg-secondary:#28272c;
+--text-primary:#6a6a6a;
+--text-secondary:#b2b2b2;
+
+}
+
+/* font-family: "Nunito Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100,
+  "YTLC" 500;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
