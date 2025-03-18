@@ -11,24 +11,180 @@
     <title>Car Sharing</title>
 </head>
 <body>
+    <!-- Sekce header -->
     <header class="header">
         <div class="container">
-            <div class="header__logo">
-<img src="/images/Icon.svg" alt="logo">
-            <h1><span>Car</span>Sharing</h1>
-            </div>
-
+        <a class="header__logo" href="/">
+            <img src="/images/Icon.svg" alt="Logo společnosti">
+            <p><span>Car</span>Sharing</p>
+        </a>  
         <nav>
             <ul class="header__nav">
-                <li class="header__item"><a href="#">Home</a></li>
-                <li class="header__item"><a href="#">Blog</a></li>
-                <li class="header__item"><a href="#">Service</a></li>
-                <li class="header__item"><a href="#">Contact</a></li>
+                <a class="header__item" href="#">
+                    <li>Home</li>
+                </a>
+                <a class="header__item" href="#blog">
+                    <li>Blog</li>
+                </a>    
+                <a class="header__item" href="#service">
+                    <li>Service</li>
+                </a>
+                <a class="header__item" href="contact">
+                    <li>Contact</li>
+                </a>
+                 
             </ul>
-
         </nav>
         </div>
-
     </header>
+    <!-- Sekce banner -->
+
+    <section class="banner">
+        <div class="container">
+            <h1 class="banner__heading">Car Sharing</h1>
+        <p class="banner__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+            <div class="banner__buttons">
+                <button class="btn btn-big btn-primary">Share a car</button>
+                <button class="btn btn-big bt-secondary">Key features</button>
+            </div>    
+        </div>     
+        
+        <a href="#blog" class="btn-primary banner__arrow" aria.label="Scroll down to next section">
+            <img src="/images/Icon Arrow Down.svg" alt="Šipka dolu ikona">
+        </a>
+    </section>
+
+    <!-- Sekce blog -->
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="blog__heading">Blog</h2>
+            <div class="blog__articles">
+                <article class="blog__article">
+                    <img src="/images/photo1.png" alt="Interier auta">
+                    <h3 class="blog__article-heading">Lorem ipsum</h3>
+                    <p class="blog__article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora minima deleniti voluptatum dignissimos magnam odio ad earum debitis pariatur! Atque culpa minima veniam nemo saepe nostrum, dolorem alias ipsa ut ab earum, rerum officia veritatis quo fugiat laudantium! Vitae distinctio explicabo temporibus fuga repellat voluptas dignissimos vero officia numquam odit!</p>
+                    <button class="btn btn-primary">Read more</button>
+                </article>   
+                <article class="blog__article">
+                    <img src="/images/photo2.png" alt="Interier auta2">
+                    <h3 class="blog__article-heading">Lorem ipsum</h3>
+                    <p class="blog__article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora minima deleniti voluptatum dignissimos magnam odio ad earum debitis pariatur! Atque culpa minima veniam nemo saepe nostrum, dolorem alias ipsa ut ab earum, rerum officia veritatis quo fugiat laudantium! Vitae distinctio explicabo temporibus fuga repellat voluptas dignissimos vero officia numquam odit!</p>
+                    <button class="btn btn-primary">Read more</button>
+                </article>   
+                <article class="blog__article">
+                    <img src="/images/photo3.png" alt="Interier auta3">
+                    <h3 class="blog__article-heading">Lorem ipsum</h3>
+                    <p class="blog__article-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora minima deleniti voluptatum dignissimos magnam odio ad earum debitis pariatur! Atque culpa minima veniam nemo saepe nostrum, dolorem alias ipsa ut ab earum, rerum officia veritatis quo fugiat laudantium! Vitae distinctio explicabo temporibus fuga repellat voluptas dignissimos vero officia numquam odit!</p>
+                    <button class="btn btn-primary">Read more</button>
+                </article>   
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekce service -->
+
+<section id="service" class="service">
+    <div class="container">
+        <h2 class="service__heading">Service</h2>
+        <div class="service__articles">
+            <article class="service__article">
+                <img src="/images/mini1.png" alt="service obrazek1">
+                <h3 class="service__article-heading">Lorem Ipsum</h3>
+                <p class="service__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                <div class="service__buttons"></div>
+                <button class="btn btn-primary">Read me</button>
+            </article> 
+            <article class="service__article">
+                <img src="/images/mini2.png" alt="service obrazek2">
+                <h3 class="service__article-heading">Lorem Ipsum</h3>
+                <p class="service__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                <div class="service__buttons"></div>
+                <button class="btn btn-primary">Read me</button>
+            </article>
+            <article class="service__article">
+                <img src="/images/mini3.png" alt="service obrazek3">
+                <h3 class="service__article-heading">Lorem Ipsum</h3>
+                <p class="service__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                <div class="service__buttons"></div>
+                <button class="btn btn-primary">Read me</button>
+            </article>
+            <article class="service__article">
+                <img src="/images/mini4.png" alt="service obrazek4">
+                <h3 class="service__article-heading">Lorem Ipsum</h3>
+                <p class="service__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                <div class="service__buttons"></div>
+                <button class="btn btn-primary">Read me</button>
+            </article>     
+        </div>        
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        
+    </div>
+</section>
+
+    <!-- Sekce contact -->
+
+<section class="contact">
+    <div class="container">
+        <h2 class="contact__heading">Contact</h2>
+    <div class="contact__form-wrapper">
+        <form class="contact__form">
+        <img class="contact__form-image" src="/images/Form Photo.png" alt="Form image">
+        <input type="text" name="name" placeholder="Type your name" aria-label="Your name">
+        <input type="email" name="email" placeholder="Type youe email" aria-label="Your email">
+        <textarea rows="10" name="message" placeholder="Type your message" aria-label="Your message"></textarea>
+        <label class="contact__form-checkbox">
+              <input type="checkbox">
+              <span></span>
+              I hereby give consent for my personal data included in my application to be processed for the purposes of
+            the
+            recruitment process under the European Parliament&apos;s and Council of the European Union Regulation on the
+            Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the
+            free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+        </label>
+        <button class="btn btn-secondary">Send</button>
+        </form>
+
+    </div>
+    </div>
+
+</section>
+
+
+
+    <!-- Sekce footer -->
+
+<footer class="footer">
+    <div class="container">
+        <a class="footer__logo" href="/">
+          <img src="/images/Icon.svg" alt="logo">
+            <p><span>Car</span>Sharing</p>  
+        </a>
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item"><a href="/">Home page</a></li>
+                    <li class="footer__nav-item"><a href="#">About us</a></li>
+                    <li class="footer__nav-item"><a href="">Gallery</a></li>
+                    <li class="footer__nav-item"><a href="">Share regulation</a></li>
+                  </ul>
+                  <ul class="footer__nav-list">
+                    <li class="footer__nav-item"><a href="">Price</a></li>
+                    <li class="footer__nav-item"><a href="">Our fleet</a></li>
+                    <li class="footer__nav-item"><a href="">Our clients</a></li>
+                    <li class="footer__nav-item"><a href="">Contact</a></li>
+          
+                  </ul>
+            </nav>
+            <small class="footer__copy">Copyright</small>
+                
+    </div> 
+    </footer>            
+
 </body>
 </html>
